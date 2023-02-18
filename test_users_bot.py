@@ -6,7 +6,7 @@ from faker import Faker
 from telebot import TeleBot, types
 
 # TODO: вставить свой токен
-TOKEN = 'тут_вставить_токен'
+TOKEN = 'токен'
 bot = TeleBot(TOKEN, parse_mode='html')
 # утилита для генерации номеров кредитных карт
 # указываем язык - русский
